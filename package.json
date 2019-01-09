@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "prebuild": "^7.6.0",
-    "tree-sitter-cli": "^0.13.11",
+    "tree-sitter-cli": "^0.13.16",
     "tree-sitter-highlight-schema": "^0.1.1"
   },
   "scripts": {
@@ -30,7 +30,9 @@
   "tree-sitter": [
     {
       "textmate-scope": "source.ruby",
-      "file-types": ["rb"],
+      "file-types": [
+        "rb"
+      ],
       "highlights": "src/highlights.json",
       "injection-regex": "ruby"
     }
